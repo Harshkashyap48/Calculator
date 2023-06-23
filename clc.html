@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body class="body">
+    <main class="calculator-container">
+        <div class="calculator">
+
+            <section class="calculator-display">
+                <div class="display-input"></div>
+                <div class="display-output"></div>
+            </section>
+
+            <section class="calculator-keypad">
+                <!-- Línea 1 -->
+                <div data-key="clear" class="button operator">
+                    <span class="span">AC</span>
+                </div>
+                <div data-key="backspace" class="button operator">
+                    <span class="span">⌫</span>
+                </div>
+                <div data-key="%" class="button operator">
+                    <span class="span">%</span>
+                </div>
+                <div data-key="/" class="button operator">
+                    <span class="span">÷</span>
+                </div>
+
+                <!-- Línea 2 -->
+                <div data-key="7" class="button number">
+                    <span class="span">7</span>
+                </div>
+                <div data-key="8" class="button number">
+                    <span class="span">8</span>
+                </div>
+                <div data-key="9" class="button number">
+                    <span class="span">9</span>
+                </div>
+                <div data-key="*" class="button operator">
+                    <span class="span">x</span>
+                </div>
+
+                <!-- Línea 3 -->
+                <div data-key="4" class="button number">
+                    <span class="span">4</span>
+                </div>
+                <div data-key="5" class="button number">
+                    <span class="span">5</span>
+                </div>
+                <div data-key="6" class="button number">
+                    <span class="span">6</span>
+                </div>
+                <div data-key="-" class="button operator">
+                    <span class="span">-</span>
+                </div>
+
+                <!-- Línea 4 -->
+                <div data-key="1" class="button number">
+                    <span class="span">1</span>
+                </div>
+                <div data-key="2" class="button number">
+                    <span class="span">2</span>
+                </div>
+                <div data-key="3" class="button number">
+                    <span class="span">3</span>
+                </div>
+                <div data-key="+" class="button operator">
+                    <span class="span">+</span>
+                </div>
+
+                <!-- Línea 5 -->
+                <div data-key="0" class="button double number">
+                    <span class="span">0</span>
+                </div>
+                <div data-key="." class="button number">
+                    <span class="span">.</span>
+                </div>
+                <div data-key="=" class="button operator">
+                    <span class="span">=</span>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
